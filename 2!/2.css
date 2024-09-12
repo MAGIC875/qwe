@@ -1,0 +1,44 @@
+.body{
+    background-color: rgb(252, 252, 252);
+}
+.button1{
+    -position:absolute;
+    -margin: 0 auto;
+    -display: flex;
+    text-align: center;
+    -top: 50%;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 7px rgb(105, 105, 105);
+    padding: 1em 2.5em; /* Поля по вертикали и горизонтали */
+    font-family: monospace; /* Моноширинный шрифт */
+    font-size: 1.4em; /* Размер текста */
+    font-weight:bolder; /* шрифт */
+    text-transform: uppercase; /* Все буквы заглавные */
+    border-bottom:4px rgb(30, 43, 43);
+    background-color:rgb(219, 219, 219);
+}
+.button1:hover{
+    transition: 0.3s;
+    background-color: rgb(116, 190, 168);
+    color:white;
+}    
+.button1:not(:hover){
+        transition: 1s;
+        background-color: rgb(219, 219, 219);
+        color:black;
+}
+.button1:active{
+
+    box-shadow:0 3px rgb(80, 80, 80);
+    background-color:  rgb(116, 190, 168);
+    transform: translateY(4px);
+    transition-duration: 0s;
+    color:white;
+}
+.p1{
+    text-align: center;
+}
